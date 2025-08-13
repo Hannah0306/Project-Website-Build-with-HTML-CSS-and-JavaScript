@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEOW CAFE - Menu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>MEOW CAFE</h1>
+    <button id="toggle">&#9776;</button>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="visit.html">Visit Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Our Delicious Menu</h2>
+        <p>Freshly brewed coffee and sweet treats for cat lovers.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <h3>Featured Drinks & Treats</h3>
+      <p>At MEOW CAFE, we serve a variety of coffee blends, cat-themed beverages, and homemade desserts that will delight your taste buds.</p>
+    </section>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+      <button onclick="filterMenu('all')">All</button>
+      <button onclick="filterMenu('coffee')">Coffee</button>
+      <button onclick="filterMenu('tea')">Tea</button>
+      <button onclick="filterMenu('smoothie')">Smoothie</button>
+      <button onclick="filterMenu('dessert')">Dessert</button>
+    </div>
+
+    <section class="cards">
+      <!-- Coffee -->
+      <div class="card coffee">
+        <img src="Images/latte.jpg" alt="Meow Latte" />
+        <h4>Meow Latte</h4>
+        <p>Creamy milk with a hint of caramel meowgic.</p>
+      </div>
+      <div class="card coffee">
+        <img src="Images/coffee.jpg" alt="Cat Mocha" />
+        <h4>Cat Mocha</h4>
+        <p>Chocolate and espresso blend with a cute paw print on top.</p>
+      </div>
+      <div class="card dessert">
+        <img src="Images/capuchino.jpg" alt="Cappuchino" />
+        <h4>Cat Waffle</h4>
+        <p>Buttery, crunchy waffles with delicious sauce and pearls.</p>
+      </div>
+      <div class="card tea">
+        <img src="Images/matcha latte.jpg" alt="Matcha" />
+        <h4>Matcha Latte</h4>
+        <p>Best seller.</p>
+      </div>
+
+      <!-- Smoothie -->
+      <div class="card smoothie">
+        <img src="Images/banana smoothie.jpg" alt="Banana Smoothie" />
+        <h4>Banana Smoothie</h4>
+        <p>Freshly banana with milk.</p>
+      </div>
+      <div class="card smoothie">
+        <img src="Images/bluestrawberry smoothie.jpg" alt="bluestrawberry Smoothie" />
+        <h4>Blue Strawberry Smoothie</h4>
+        <p>Freshly blue strawberry with milk.</p>
+      </div>
+      <div class="card smoothie">
+        <img src="Images/Strawberry smoothie.jpg" alt="Strawberry Smoothie" />
+        <h4>Strawberry Smoothie</h4>
+        <p>Freshly Strawberry with milk.</p>
+      </div>
+
+      <!-- Dessert -->
+      <div class="card dessert">
+        <img src="Images/waffle.PNG" alt="Waffle" />
+        <h4>Waffle</h4>
+        <p>Baked waffle with delicious toppings</p>
+      </div>
+      <div class="card dessert">
+        <img src="Images/tiramisu.jpg" alt="tiramisu" />
+        <h4>Tiramisu</h4>
+        <p>Tiramisu with lots of flavours</p>
+      </div>
+      <div class="card dessert">
+        <img src="Images/cookies.jpg" alt="Cookies" />
+        <h4>Cookies</h4>
+        <p>Freshly baked cookies shaped like adorable cats.</p>
+      </div>
+      <div class="card dessert">
+        <img src="Images/chocolate cake.jpg" alt="Chocolate cake" />
+        <h4>Chocolate Cake</h4>
+        <p>Cake with chocolate toppings</p>
+      </div>
+
+      <!-- Tea -->
+      <div class="card tea">
+        <img src="Images/summer tea.jpg" alt="Summer Tea" />
+        <h4>Summer Tea</h4>
+        <p>Best seller</p>
+      </div>
+      <div class="card tea">
+        <img src="Images/jasmine greentea.jpg" alt="jasmine" />
+        <h4>Jasmine Green Tea</h4>
+        <p>Fresh jasmine green tea with hot or cold</p>
+      </div>
+      <div class="card tea">
+        <img src="Images/bubble milktea.jpg" alt="Bubble milktea" />
+        <h4>Bubble Milk Tea</h4>
+        <p>Milk tea with black pearls</p>
+      </div>
+      <div class="card tea">
+        <img src="Images/orange tea.jpg" alt="Orange Tea" />
+        <h4>Orange Tea</h4>
+        <p>Fresh orange with black tea</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MEOW CAFE. Brewed with love & purrs 🐾</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

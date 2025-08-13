@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEOW CAFE</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>MEOW CAFE</h1>
+
+    
+    <button id="toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+
+    <nav id="menu" role="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        
+        <li><a href="visit.html">Visit Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Your Cozy Cat Cafe</h2>
+        <p>Pastel coffee. Feline vibes. Sweet treats.</p>
+        <a href="menu.html" class="hero-button">Explore Menu</a>
+      </div>
+      
+    </section>
+
+    <section class="content">
+      <h3>Welcome to MEOW CAFE</h3>
+      <p>
+        Nestled in the heart of the city, MEOW CAFE is a cozy hideaway where coffee meets comfort. Enjoy our handcrafted drinks, sweet treats, and the gentle company of our feline friends. Whether you're here to study, unwind, or cuddle a cat, there's always a warm seat waiting for you.
+      </p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <img src="Images/drink.PNG" alt="Latte" />
+        <h4>Meow Latte</h4>
+        <p>Creamy milk with a hint of caramel meowgic.</p>
+      </div>
+      <div class="card">
+        <img src="Images/waffle.PNG" alt="Waffle" />
+        <h4>Waffle</h4>
+        <p>Buttery, crunchy, with delicious sauce and pearls.</p>
+      </div>
+    </section>
+
+    <section class="video">
+      <h3>Watch Our Vibe</h3>
+      <div class="container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/TUxhSregQ_k?si=JV7neybp5AGr5JWX"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="dynamic-section">
+      <h3>Try Our Special Coffee Names!</h3>
+      <button id="change-coffee-btn">Change Coffee Name</button>
+      <p id="coffee-name">Meow Latte</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MEOW CAFE. Brewed with love & purrs 🐾</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
