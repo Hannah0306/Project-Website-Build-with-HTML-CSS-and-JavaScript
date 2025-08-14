@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const coffeeBtn = document.getElementById('change-coffee-btn');
   const coffeeName = document.getElementById('coffee-name');
 
-  // Toggle menu responsive
+  
   toggle.addEventListener('click', () => {
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', !expanded);
     menu.classList.toggle('active');
   });
 
-  // Coffee name options
+  
   const coffeeOptions = [
     "Meow Latte",
     "Purrfect Cappuccino",
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Whisker Macchiato",
   ];
 
-  // Change coffee name on button click
+  
   if (coffeeBtn && coffeeName) {
     coffeeBtn.addEventListener('click', () => {
       let currentIndex = coffeeOptions.indexOf(coffeeName.textContent);
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===== Filter Menu Function =====
+  
   window.filterMenu = function (category) {
     let items = document.querySelectorAll('.card');
     items.forEach(item => {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
   toggleBtn.addEventListener("click", function () {
     navMenu.classList.toggle("active");
 
-    // Cập nhật trạng thái aria-expanded cho accessibility
+    
     const isExpanded = toggleBtn.getAttribute("aria-expanded") === "true";
     toggleBtn.setAttribute("aria-expanded", !isExpanded);
   });

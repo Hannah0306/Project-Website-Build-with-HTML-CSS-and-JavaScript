@@ -1,17 +1,17 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #fbe9f4; /* hồng pastel nhạt */
-    color: #5d3a1a; /* nâu cà phê */
+    background-color: #fbe9f4; 
+    color: #5d3a1a; 
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
   
-  /* Header */
+  
   header {
-    background-color: #4b2e12; /* nâu cà phê đậm */
+    background-color: #4b2e12; 
     padding: 1rem 1.5rem;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ body {
     margin: 0;
     font-weight: 700;
     font-size: 1.8rem;
-    color: #fdf6f0; /* trắng kem */
+    color: #fdf6f0; 
   }
   
   #toggle {
@@ -32,10 +32,10 @@ body {
     font-size: 2rem;
     cursor: pointer;
     color: #fdf6f0;
-    display: none; /* ẩn trên desktop */
+    display: none; 
   }
   
-  /* Nav */
+  
   nav ul {
     list-style: none;
     display: flex;
@@ -45,7 +45,7 @@ body {
   
   nav ul li a {
     text-decoration: none;
-    color: #fdf6f0; /* chữ trắng kem */
+    color: #fdf6f0; 
     font-weight: 600;
     padding: 0.3rem 0.7rem;
     border-radius: 10px;
@@ -54,11 +54,11 @@ body {
   
   nav ul li a:hover,
   nav ul li a[aria-current="page"] {
-    background-color: #f9bbcd; /* hồng pastel */
+    background-color: #f9bbcd; 
     color: #4b2e12;
   }
   
-  /* Hero */
+  
   .hero {
     background-color: #fcd9e8;
     display: flex;
@@ -107,7 +107,7 @@ body {
     box-shadow: 0 5px 15px rgba(93, 58, 26, 0.3);
   }
   
-  /* Content */
+  
   .content {
     max-width: 900px;
     margin: 2rem auto;
@@ -117,7 +117,7 @@ body {
     text-align: center;
   }
   
-  /* Cards */
+  
   .cards {
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@ body {
     font-size: 0.95rem;
   }
   
-  /* Video */
+  
   .video {
     max-width: 900px;
     margin: 3rem auto;
@@ -178,7 +178,7 @@ body {
     border: none;
   }
   
-  /* Dynamic section */
+  
   .dynamic-section {
     max-width: 900px;
     margin: 3rem auto;
@@ -208,18 +208,18 @@ body {
     color: #4b2e12;
   }
   
-  /* Footer */
+  
   footer {
-    background-color: #4b2e12; /* nâu cà phê đậm */
+    background-color: #4b2e12; 
     text-align: center;
     padding: 1.5rem;
     font-weight: 600;
-    color: #fdf6f0; /* chữ trắng kem */
+    color: #fdf6f0; 
     margin-top: auto;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
   }
   
-  /* Responsive */
+  
   @media (max-width: 768px) {
     #toggle {
       display: block;
@@ -243,7 +243,7 @@ body {
     }
   }
 
-  /* Map Section */
+  
 .map {
   max-width: 900px;
   margin: 2rem auto;
@@ -257,19 +257,19 @@ body {
   box-shadow: 0 5px 15px rgba(93, 58, 26, 0.15);
 }
 
-/* Filter Buttons */
+
 .filter-buttons {
   text-align: center;
   margin: 1.5rem 0;
 }
 
 .filter-buttons button {
-  background-color: #f9bbcd; /* hồng pastel */
+  background-color: #f9bbcd; 
   border: none;
   padding: 0.6rem 1.2rem;
   margin: 0.3rem;
   border-radius: 25px;
-  color: #4b2e12; /* nâu cà phê */
+  color: #4b2e12; 
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0 3px 7px rgba(93, 58, 26, 0.2);
